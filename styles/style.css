@@ -239,9 +239,64 @@
     margin: 8px;
     color: white;
     /* filter: invert(1); */
-    
-    
-    
 }
 
 /* section-2 styles */
+
+
+/* footer styles */
+.footer{
+    background-color: rgb(222, 225, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 140px;
+}
+.img-2{
+    height: 82px;
+    margin-top: 60px;
+}
+
+
+.title-6{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 39px;
+    color: white;
+
+}
+.des-3{
+    font-size: 20px;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    /* color: white; */
+
+}
+.title-7{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    color: white;
+    /* text-align: justify; */
+    margin-left:36px ;
+}
+
+.footer-ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    
+
+}
+.title-8{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 30px;
+
+}
+
