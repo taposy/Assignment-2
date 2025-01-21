@@ -278,9 +278,9 @@
          */
          background-image: 
          linear-gradient(
-                    to bottom right, 
+                    to bottom , 
                     rgba(255, 255, 255, 0.289), 
-                    rgba(254, 161, 1, 0.238)
+                    rgba(254, 161, 1, 0.315)
                 ), 
                 url(../assets/bg.png);
 
@@ -303,16 +303,17 @@
 }
 
 .box-1 {
-    width: 540px;
+    /* width: 540px; */
     height: 630px;
     /* border: 1px solid black; */
     border-radius: 0 0 20px 20px;
-    background-color: beige;
+     background-color: beige;
 
 }
 .box-1child{
    
-    padding-left: 25px;
+    padding-left: 38px;
+    padding-right: 78px;
 }
 
 .box-1title {
@@ -320,8 +321,9 @@
     font-size: 24px;
     line-height: 38px;
     color: #000000;
-    padding-left: 25px;
-}
+    padding-left: 38px;
+    margin-top: 33px;
+} 
 
 .box-1des {
     font-weight: 500;
@@ -340,18 +342,17 @@
     color: white;
     font-size: 15px;
     font-weight: 500;
-    /* line-height: 28px; */
+    line-height: 28px;
     border: none;
     border-radius: 47px;
     padding: 10px;
-    margin-left: 33px;
-    margin-top: -150px;
+    margin-left: -510px;
 
 }
 .box-2parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 18px;
 }
 
@@ -376,8 +377,7 @@
     border: none;
     border-radius: 47px;
     padding: 10px;
-    margin-left: 25px;
-    margin-top: -150px;
+    margin-left: -270px;
 
 }
 
@@ -390,8 +390,7 @@
     border: none;
     border-radius: 47px;
     padding: 10px;
-    margin-left: 25px;
-    margin-top: -150px;
+    margin-left: -270px;
 
 
 }
@@ -463,22 +462,25 @@
 
 
 /* footer styles */
+
+
 .footer {
-    background-color: rgb(222, 225, 255);
+    background-color: #01ACFD;
     display: flex;
     justify-content: space-around;
     padding: 120px 140px;
 }
 
+
 .img-2 {
     height: 82px;
-    margin-top: 62px;
+    margin-top: 60px;
     /* margin-bottom:30px ; */
 }
 
 .title-6 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 42px;
     line-height: 39px;
     color: white;
 
